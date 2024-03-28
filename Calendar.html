@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Fiddle & Bow Music Hall Calendar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link for CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Calendar.css">
+    <style>
+      .footer {
+            background-image: url('images/floorRug2.jpg'); /* Replace with the path to your image */
+            background-size: cover;
+            background-position: right bottom; /* Adjust the position as needed */
+            color: white; }/* Adjust text color as needed */
+      .navbar-inverse {
+          background-image: url('images/Stage Pattern Dark 80.jpg');
+          background-size: cover;
+      }
+    </style>
+
+    <!-- Link for google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Opensans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Link for JavaScript(s) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse"> <!-- Opens nav bar -->
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="images/F&B Logo for Nav Bar.png" alt="Image" class="mr-2"> <!-- Add this line -->
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="active"><a href="Calendar.html">Calendar</a></li>
+                <li><a href="Store.html">Store</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav> <!-- Closes nav bar -->
+
+<div class="container-fluid text-center"> <!-- Opens container for About Piece-->
+
+    <div class="row content"> <!-- Opens row for Piece -->
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="">
+                        <h1>Upcoming Events</h1>
+                        <p>
+                            In addition to our full calendar, we have a FREE bluegrass music jam circle every Tuesday evening from 6PM until. The rules are simple – bring your own instrument and join in or just your ears and listen. We will post on our social media page if this event is cancelled. You can learn more about our social media
+                            <a class="link-opacity-100-hover" href="Contact.html">here.</a>
+                            $5 Dollar Fridays is another event. On $5 Dollar Fridays, we focus on local talent and a $5 bill will get you in the door. These will be posted as they are scheduled and will be listed on the full calendar. If you have questions, you can contact us
+                            <a class="link-opacity-100-hover" href="Contact.html">here.</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-4 tnb">
+                    <img src="images/Tuesday Night Bluegrass Logo.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                </div>
+                <div class="col-md-4 friday">
+                    <img src="images/5 Dollar Friday.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-left">
+            <H1>Full Calendar</H1>
+            <p>The Fiddle and Bow Music Hall’s full calendar is below. We will update this as shows are scheduled. We do not list the FREE bluegrass jam circle but unless otherwise announced on social media, we host this every Tuesday with the red door opening at 6PM. Below each tour date poster, you will find date, time, and ticket prices. You can purchase tickets at the Red Door, by phone or at the link below the poster. If you have questions, you can contact us <a class="link-opacity-100-hover" href="Contact.html">here.</a><p>
+            <div class="row content">
+                <div class="col-sm-4 show-1">
+                    <img src="images/Retro 78_MAR24_Web.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>Retro 78</h2>
+                    <h3>March 9th, 2024</h3>
+                    <h3>Red Door 6PM | Show 7PM</h3>
+                    <h3>Tickets $15</h3>
+                    <a href="" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+                <div class="col-sm-4 show-2">
+                    <img src="images/Cater.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>Big Daddy Cater Presents Silly Saturdays</h2>
+                    <h3>March 16th, 2024</h3>
+                    <h3>Red Door 7PM | Show 8PM</h3>
+                    <h3>Tickets $10</h3>
+                    <a href="" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+                <div class="col-sm-4 show-3">
+                    <img src="images/JBB_MAR24_Web.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>The Johnson Bentley Band</h2>
+                    <h3>March 22nd, 2024</h3>
+                    <h3>Red Door 6PM | Show 7PM</h3>
+                    <h3>Tickets $10</h3>
+                    <a href="https://www.eventbrite.com/e/the-johnson-bentley-band-tickets-789201421697?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+            </div>
+
+            <div class="row content">
+                    <div class="col-sm-4 show-4">
+                    <img src="images/David Childers_Branded_April24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>David Childers w/ Special Guest Cody Gentry</h2>
+                    <h3>April 20th, 2024</h3>
+                    <h3>Red Door 6PM | Show 7PM</h3>
+                    <h3>Tickets $20</h3>
+                    <a href="https://www.eventbrite.com/e/david-childers-and-the-serpents-w-cody-gentry-tickets-786313824817?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+               </div>
+                    <div class="col-sm-4 show-5">
+                        <img src="images/A Step Ahead_APR24_Web.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                        <h2>One Step Ahead</h2>
+                        <h3>April 26th, 2024</h3>
+                        <h3>Red Door 6PM | Show 7PM</h3>
+                        <h3>Tickets $15</h3>
+                        <a href="https://www.eventbrite.com/e/one-step-ahead-tickets-797097850127?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+               </div>
+               <div class="col-sm-4 show-6">
+                   <img src="images/Nathan Stanley_Branded_April 24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                   <h2>Nathan Stanley and His Country Music Band</h2>
+                   <h3>April 27th, 2024</h3>
+                   <h3>Red Door 6PM | Show 7PM</h3>
+                   <h3>Tickets $25</h3>
+                   <a href="https://www.eventbrite.com/e/award-winning-nathan-stanley-and-his-country-music-band-tickets-852544061237" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+            </div>
+
+            <div class="row content">
+                <div class="col-sm-4 show-7">
+                    <img src="images/Madison Medlin.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>Madison Medlin</h2>
+                    <h3>May 10th, 2024</h3>
+                    <h3>Red Door 6PM | Show 7PM</h3>
+                    <h3>Tickets $5</h3>
+                    <a href="https://www.eventbrite.com/e/madison-medlin-tickets-797336353497?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+            <div class="col-sm-4 show-8">
+                <img src="images/Dr Mac Arnold_Branded_June 24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                <h2>Legendary Dr Mac Arnold and John Hartness Duo</h2>
+                <h3>June 21st, 2024</h3>
+                <h3>Red Door 6PM | Show 7PM</h3>
+                <h3>Tickets $15</h3>
+                <a href="https://www.eventbrite.com/e/carly-rikard-and-the-show-goats-tickets-796904511847?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+                <div class="col-sm-4 show-9">
+                    <img src="images/Rikard_JUN24_Web.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                    <h2>Carly Rikard & The Show Goats</h2>
+                    <h3>June 29th, 2024</h3>
+                    <h3>Red Door 6PM | Show 7PM</h3>
+                    <h3>Tickets $10</h3>
+                    <a href="https://www.eventbrite.com/e/carly-rikard-and-the-show-goats-tickets-796904511847?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                </div>
+            </div>
+                <div class="row content">
+                    <div class="col-sm-4 show-10">
+                        <img src="images/Austin Irby _For Real_Branded_July 24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                        <h2>Austin Irby "For Real"</h2>
+                        <h3>July 13th, 2024</h3>
+                        <h3>Red Door 6PM | Show 7PM</h3>
+                        <h3>Tickets $20</h3>
+                        <a href="https://www.eventbrite.com/e/austin-irby-for-real-event-tickets-850409907927?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                    </div>
+                    <div class="col-sm-4 show-11">
+                        <img src="images/Riverstone_5 Dollar Friday_09Aug24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                        <h2>Riverstone</h2>
+                        <h3>August 9th, 2024</h3>
+                        <h3>Red Door 6PM | Show 7PM</h3>
+                        <h3>Tickets $5</h3>
+                        <a href="https://www.eventbrite.com/e/riverstone-tickets-850495744667?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                    </div>
+                    <div class="col-sm-4 show-12">
+                        <img src="images/BrandNewBoxOfMatches.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                        <h2>Brand New Box of Matches w/ Special Guest Will Millford</h2>
+                        <h3>August 24th, 2024</h3>
+                        <h3>Red Door 6PM | Show 7PM</h3>
+                        <h3>Tickets $10</h3>
+                        <a href="https://www.eventbrite.com/e/brand-new-box-of-matches-w-special-opener-will-milford-tickets-850398383457?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                    </div>
+</div>
+                    <div class="row content">
+                        <div class="col-sm-4 show-13">
+                            <img src="images/Austin Irby_Elvis_Branded_October 24.jpg" class="img-fluid" style="width: 100%" alt="Responsive image">
+                            <h2>Austin Irby as ELVIS</h2>
+                            <h3>October 19th, 2024</h3>
+                            <h3>Red Door 6PM | Show 7PM</h3>
+                            <h3>Tickets $20</h3>
+                            <a href="https://www.eventbrite.com/e/austin-irby-as-elvis-tickets-850416457517?aff=ebdssbdestsearch" class="btn custom-btn" role="button">Tickets</a>
+                        </div>
+                        <div class="col-sm-4 your-band">
+                            <h2>Your Band Could Be Up Next!</h2>
+                            <p>If you are interested in getting on stage at The Fiddle and Bow Music Hall, you can contact us <a class="link-opacity-100-hover" href="Contact.html">here.</a> If you have questions, you can go to our FAQ page <a class="link-opacity-100-hover" href="FAQ.html">here</a> and learn more. It is our mission at The Fiddle and Bow Music Hall to share our love of music, Southern folk art, and to promote local talent. If you are that local talent or musician, get in touch. We would love to hear from you. Just know, Hank Williams Sr. will be looking over your shoulder. </p>
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- /container -->
+
+<footer class="footer bg-black text-center text-lg-start text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row my-4">
+                    <!--Circle Logo Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+                            <img class= "mobile-logo" src="images/The Fiddle and the Bow_Circle Logo.png" height="200" alt="circle with word The Fiddle and Bow Music Hall" loading="lazy" />
+                        </div>
+                    </div>
+                    <!--Circle Logo Grid column-->
+
+                    <!--Mission Statement Grid column-->
+                    <div class="mobile-mission col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h2 class="mb-4">Mission</h2>
+                        <p class="text-center"> To Share our Passion for Music,</p>
+                        <p class="text-center">Southern Folk Art,</p>
+                        <p class="text-center">& Promote Local Talent.</p>
+                    </div>
+                    <!--Mission Statement Grid column-->
+
+                    <!--Get In Touch Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex align-items-center justify-content-center">
+                        <div class="contact-info" style="max-width: 300px;"> <!-- Adjust max-width as needed -->
+                            <h2 class="mb-4 text-center mt-0">Get In Touch</h2>
+                            <ul class="list-unstyled text-center" style="margin-bottom: 50px;">
+                                <li>
+                                    <p><a href="https://www.google.com/maps/search/?api=1&query=45+N.+Main+Street+Honea+Path,+SC" style="color: white;">45 N. Main Street Honea Path, SC</a></p>
+                                    <p><a href="tel:+18649402254" style="color: white;">(864) 940-2254 | 7AM-9PM</a></p>
+                                    <p><a class="email" href="mailto:thefiddleandbowmusichall@gmail.com" style="color: white;">thefiddleandbowmusichall@gmail.com</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Get In Touch Grid column-->
+
+                    <!--Social Media Grid column-->
+                    <div class="align-items-center justify-content-center social">
+                        <h2>Social Media</h2>
+                        <div>
+                            <a href="https://www.facebook.com/fiddleandbowmusichall">
+                                <img src="images/Facebook_logo_(square).png" alt="Facebook" class="social-icon" style="width: 30px; height: 30px;">
+                            </a>
+                            <a href="https://www.instagram.com/thefiddleandbowmusichall/">
+                                <img src="images/Instagram Logo Square.png" alt="Instagram" class="social-icon" style="width: 30px; height: 30px;">
+                            </a>
+                        </div>
+                    </div>
+                    <!--Social Media Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        </footer> <!-- Open Footer -->
+</div>
+    <!--Grid row-->
+
+</div>
+<!-- Grid container -->
+
+<div class="text-center p-3">
+    <p>© 2024 Copyright | The Fiddle and Bow Music Hall | Designed & Built by </a><a class="text-white" href="https://invisiblekatanaartwork.com/">Invisible Katana Artwork</a></p>
+</div> <!-- Open Copyright -->
+<!-- Close Copyright -->
+
+</body>
+</html>
