@@ -10,7 +10,6 @@ font {
 footer {
     color: white;
     padding: 50px;
-    margin-top: 20px;
 }
 
 /* Added h2, this changes the h2 tags of the page JJE 2.1.24 */
@@ -97,10 +96,11 @@ p {
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {height: 150px}
+.row.content {height: 450px}
 
-.two {
-    margin-top: 20px;
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .row.content {height:auto;}
 }
 
 /* Code below controls the changes made on mobile devices */
@@ -245,7 +245,7 @@ p {
     }
 
     .show-2 {
-        padding-top: 10px;
+       padding-top: 10px;
     }
 
     .never-know {
