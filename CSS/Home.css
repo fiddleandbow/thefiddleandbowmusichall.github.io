@@ -104,6 +104,86 @@ p {
 }
 
 /* Code below controls the changes made on mobile devices */
+@media screen and (max-width: 390px) {
+
+    p {
+        line-height: 14pt;
+    }
+
+    .navbar-brand img {
+        width: 150px; /* Controls the width of the logo */
+        height: 40px; /* Controls the height of the logo */
+        margin-left: 20px; /* Moves the logo from left to right */
+    }
+
+    .row.content {
+        height:auto;}
+
+    .rounded-circle {
+        margin-bottom: 100px;
+    }
+
+    .custom-btn {
+        margin-top: 5px;
+    }
+
+    .email {
+        margin-left: -40px;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    h3 {
+        line-height: 4pt;
+    }
+
+    .list-unstyled {
+        align-content: center;
+    }
+
+    .mobile-logo {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 120px;
+        margin-right: -100px;
+    }
+
+    .mobile-mission {
+        margin-top: -70px;
+    }
+
+    .p-3 {
+        margin-top: 10px;
+    }
+
+    .show-1 {
+        margin-bottom: -80px;
+        margin-top: 25px;
+    }
+
+    .show-2 {
+        padding-top: 10px;
+    }
+
+    .never-know {
+        padding-top: 10px;
+    }
+
+    .social {
+        margin-top: -30px;
+    }
+
+    .your-band {
+        margin-bottom: -250px;
+        margin-top: 5px;
+    }
+
+}
+
+/* Code below controls the changes made on mobile devices */
 @media screen and (max-width: 320px) {
 
     p {
