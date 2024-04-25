@@ -165,7 +165,7 @@ p {
     .navbar-brand img {
         width: 150px; /* Controls the width of the logo */
         height: 40px; /* Controls the height of the logo */
-        margin-left: 70px; /* Moves the logo from left to right */
+        margin-left: 20px; /* Moves the logo from left to right - increasing number moves logo to the right */
     }
 
     .navbar {
