@@ -213,7 +213,7 @@ p {
 
     .show-4 {
         margin-bottom: 0px;
-        margin-top: -80px; /* adding - number makes the top of the image rise to close gap */
+        margin-top: 0px; /* adding - number makes the top of the image rise to close gap */
     }
 
     .show-5 {
