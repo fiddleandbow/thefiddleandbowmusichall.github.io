@@ -3,7 +3,7 @@ body {
 }
 
 .col-md-4 {
-    height: 650px; /* Adjust the height as needed to control the height of row - allows everythign to fit so there are 3 squares on each row*/
+    height: 575px; /* Adjust the height as needed to control the height of row - allows everythign to fit so there are 3 squares on each row*/
 }
 
 /* controls the color of text on custom buttons */
