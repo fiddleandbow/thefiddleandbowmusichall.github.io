@@ -2,9 +2,7 @@ body {
     background-color: black;
 }
 
-.col-md-4 {
-    height: auto; /* Adjust the height as needed to control the height of row - allows everythign to fit so there are 3 squares on each row*/
-}
+
 
 /* controls the color of text on custom buttons */
 .custom-btn {
