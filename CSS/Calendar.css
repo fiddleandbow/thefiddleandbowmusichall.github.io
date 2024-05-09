@@ -106,6 +106,9 @@ p {
     height: 800px;
 }
 
+.upcoming {
+    height: auto;
+
 /* Controls the background and font color for top left box */
 .well {
     background-image: url(../images/HardwoodFloor.jpg);
