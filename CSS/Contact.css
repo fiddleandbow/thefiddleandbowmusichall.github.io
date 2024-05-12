@@ -251,6 +251,16 @@ p {
         margin-left: 25px;
     }
 
+     h2 {
+        font-size: 20pt;
+        line-height: 20pt;
+    }
+
+    h3 {
+        font-size: 18pt;
+        line-height: 4pt;
+    }
+
     .mobile-logo {
         width: 150px;
         height: 150px;
