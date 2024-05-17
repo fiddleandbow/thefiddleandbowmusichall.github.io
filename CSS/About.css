@@ -203,6 +203,7 @@ p {
 
     .custom-btn {
         margin-top: 5px;
+        margin-bottom: 10px;
         font-size: 20pt;
     }
 
@@ -211,7 +212,7 @@ p {
     }
 
     .email {
-        margin-left: -100px;
+        margin-left: -50px;
     }
 
     h2 {
@@ -228,7 +229,7 @@ p {
         width: 150px;
         height: 150px;
         margin-bottom: 120px;
-        margin-right: -125px;
+        margin-right: -100px;
     }
 
     .navbar-brand img {
