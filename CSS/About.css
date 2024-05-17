@@ -210,6 +210,10 @@ p {
         margin-left: 25px;
     }
 
+    .email {
+        margin-left: -40px;
+    }
+
     h2 {
         font-size: 20pt;
         line-height: 20pt;
@@ -224,7 +228,7 @@ p {
         width: 150px;
         height: 150px;
         margin-bottom: 120px;
-        margin-right: -200px;
+        margin-right: -175px;
     }
 
     .navbar-brand img {
@@ -237,19 +241,6 @@ p {
         color: white;
         font-size: 16pt;
         line-height: 18pt;
-    }
-
-    .show-1 {
-        margin-bottom: -80px;
-        margin-top: 25px;
-    }
-
-    .show-2 {
-        padding-top: 100px;
-    }
-
-    .never-know {
-        padding-top: 10px;
     }
 
 } /* Closes Breakpoint 2 Based on iPhone 15*/
