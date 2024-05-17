@@ -211,8 +211,7 @@ p {
     }
 
     .email {
-        margin-left: 0px;
-        margin-right: 50px;
+        margin-left: -100px;
     }
 
     h2 {
@@ -229,7 +228,7 @@ p {
         width: 150px;
         height: 150px;
         margin-bottom: 120px;
-        margin-right: -150px;
+        margin-right: -125px;
     }
 
     .navbar-brand img {
