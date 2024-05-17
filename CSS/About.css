@@ -211,7 +211,8 @@ p {
     }
 
     .email {
-        margin-left: -40px;
+        margin-left: 50%;
+        margin-right: 50%;
     }
 
     h2 {
@@ -227,8 +228,8 @@ p {
     .mobile-logo {
         width: 150px;
         height: 150px;
-        margin-bottom: 120px;
-        margin-right: -175px;
+        margin-bottom: 50%;
+        margin-right: 50%;
     }
 
     .navbar-brand img {
