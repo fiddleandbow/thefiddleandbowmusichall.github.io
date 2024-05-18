@@ -229,7 +229,7 @@ p {
         width: 150px;
         height: 150px;
         margin-bottom: 120px;
-        margin-right: -137px;
+        margin-right: -139px; /* Smaller number moves to right */
     }
 
     .navbar-brand img {
