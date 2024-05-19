@@ -204,6 +204,10 @@ p {
         margin-left: 25px;
     }
 
+    .email {
+        margin-left: -60px;
+    }
+
     h2 {
         font-size: 20pt;
         line-height: 20pt;
@@ -218,7 +222,7 @@ p {
         width: 150px;
         height: 150px;
         margin-bottom: 120px;
-        margin-right: -200px;
+        margin-right: -141px; /* Smaller number moves to right */
     }
 
     .navbar-brand img {
