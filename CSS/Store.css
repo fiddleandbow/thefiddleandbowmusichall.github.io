@@ -84,18 +84,11 @@ p {
     font-size: 12pt;
 }
 
-.row {
-    height: 300px;
-
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+/* Set the height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
-    height: 1000px;
+    height: 450px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-    .row.content {height:auto;}
-}
 
 /* Code below controls the changes made on mobile devices */
 @media screen and (max-width: 390px) {
