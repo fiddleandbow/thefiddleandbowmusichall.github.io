@@ -1,6 +1,3 @@
-/* Code below controls the changes made on mobile devices */
-@media screen and (min-width: 481px) {
-
 body {
     background-color: black;
 }
@@ -87,10 +84,8 @@ p {
     font-size: 12pt;
 }
 
-/* Set the height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
-    height: 450px;
-}
+    height: 800px; /* Set the height of the grid so .sidenav can be 100% (adjust as needed) */
 }
 
 
