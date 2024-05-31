@@ -85,7 +85,7 @@ p {
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
-    height: auto;
+    height: 600px;
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
