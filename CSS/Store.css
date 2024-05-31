@@ -88,7 +88,7 @@ p {
 .row.content {
     height: 450px;
 }
-
+}
 
 /* Code below controls the changes made on mobile devices */
 @media screen and (max-width: 390px) {
