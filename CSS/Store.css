@@ -7,6 +7,7 @@ body {
     background-color: #627561; /* Replace with your desired initial button color */
     color: #ffffff; /* Text color (white in this example) */
     transition: background-color 0.3s ease; /* Smooth transition effect */
+    margin-bottom: 30px;
 }
 
 /* controls the color of hover on custom buttons */
