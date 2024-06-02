@@ -271,6 +271,10 @@ p {
         line-height: 18pt;
     }
 
+    .row.content {
+        height:auto;
+    }
+
     .show-1 {
         margin-bottom: -80px;
         margin-top: 25px;
