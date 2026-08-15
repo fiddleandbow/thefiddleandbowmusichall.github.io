@@ -88,6 +88,15 @@ p {
     height: 700px; /* Set the height of the grid so .sidenav can be 100% (adjust as needed) */
 }
 
+.show-1 {
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+
+.show-2 {
+        margin-bottom: 20px;
+    }
+
 
 /* Code below controls the changes made on mobile devices */
 @media screen and (max-width: 390px) {
